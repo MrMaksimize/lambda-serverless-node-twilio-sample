@@ -17,6 +17,5 @@ module.exports.receivesms= (event, context, callback) => {
     }
   };
 
-
   callback(null, response);
 };
